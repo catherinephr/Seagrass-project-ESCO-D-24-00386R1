@@ -219,7 +219,7 @@ View(Spatial_Surveys)
 Spatial_Surveys_GPS=merge(x=Spatial_Surveys,y=BIP_2023_GPS,by.x="GPS",by.y="Name")
 
 # Interpolate data for contour plots #
-register_google(key = "AIzaSyD8X7CdMZBOCTufTLqtF7aB2pjJnIuVLg8")
+register_google(key = "replace_with_your_own_google_API_key")
 
 # Laurel
 
